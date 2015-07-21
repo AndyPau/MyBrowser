@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FillrSDK</string>
+    <string name="btn_done">Done</string>
+
+    <string name="install_fillr_title">Secure Autofill by Fillr</string>
+    <string name="install_fillr_content">Fillr is the most secure &amp; accurate autofill in the world. Your profile data is PIN protected and only ever stored on your device, fully encrypted within the Fillr app. Setup takes under a minute and you’ll be returned to this page.</string>
+    <string name="install_fillr_button_yes">Install Fillr for FREE and save me time</string>
+    <string name="install_fillr_button_no">Not now, I\'d like to fill this form manually</string>
+    <string name="install_fillr_tool_bar_text">Use Secure Autofill</string>
+    <item name="line_seperator" type="id" />
+
+</resources>
