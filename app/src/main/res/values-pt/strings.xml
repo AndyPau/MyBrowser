@@ -16,7 +16,7 @@
 
 <resources>
 
-    <string name="app_name">Lightning</string>
+    <string name="app_name">MyBrowser</string>
     <string name="drawer_open">Abrir menu de navegação</string>
     <string name="drawer_close">Fechar menu de navegação</string>
     <string name="action_websearch">Pesquisa web</string>

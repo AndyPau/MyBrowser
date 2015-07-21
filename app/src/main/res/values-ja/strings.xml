@@ -13,7 +13,7 @@
 
 <resources>
 
-    <string name="app_name">Lightning</string>
+    <string name="app_name">MyBrowser</string>
     <string name="drawer_open">ナビドロワーを開く</string>
     <string name="drawer_close">ナビドロワーを閉じる</string>
     <string name="action_websearch">ウェブ検索</string>

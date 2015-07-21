@@ -13,7 +13,7 @@
 
 <resources>
 
-    <string name="app_name">Муња</string>
+    <string name="app_name">MyBrowser</string>
     <string name="drawer_open">Отвори ладицу навигације</string>
     <string name="drawer_close">Затвори ладицу навигације</string>
     <string name="action_websearch">Веб претрага</string>

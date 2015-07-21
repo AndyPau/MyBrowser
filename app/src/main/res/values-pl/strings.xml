@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lightning</string>
+    <string name="app_name">MyBrowser</string>
     <string name="drawer_open">Otwórz szufladę nawigacyjną</string>
     <string name="drawer_close">Zamknij szufladę nawigacyjną</string>
     <string name="action_websearch">Wyszukiwarka internetowa</string>
