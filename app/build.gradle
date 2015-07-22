@@ -1,32 +1,45 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        GeneralSign {
+            keyAlias 'MyBrowser'
+            keyPassword 'vnjkJj8sBMK[7bLqAbgUCFPoh?n?3Q$Yc3%.yEdachkbqWUM'
+            storeFile file('D:/keystores/browser/keystore/MyBrowser.jks')
+            storePassword 'vnjkJj8sBMK[7bLqAbgUCFPoh?n?3Q$Yc3%.yEdachkbqWUM'
+        }
+    }
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
-
     defaultConfig {
         applicationId "acr.browser.lightning"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 78
         versionName "4.0.10a"
+        signingConfig signingConfigs.GeneralSign
     }
-
     buildTypes {
         release {
             minifyEnabled true
             shrinkResources true
             proguardFiles 'proguard-project.txt'
+            signingConfig signingConfigs.GeneralSign
+            pseudoLocalesEnabled true
+            applicationIdSuffix '.release'
+            versionNameSuffix '.version'
         }
         debug {
             minifyEnabled true
             shrinkResources true
             proguardFiles 'proguard-project.txt'
+            pseudoLocalesEnabled true
         }
     }
-
     lintOptions {
         abortOnError false
+    }
+    productFlavors {
     }
 }
 
@@ -41,5 +54,4 @@ dependencies {
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
     compile project(':FillrSDK')
-
 }
