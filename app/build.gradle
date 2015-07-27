@@ -40,30 +40,6 @@ android {
     productFlavors {
         "default" {}
         google {}
-        "91" {}
-        hiapk {}
-        gfan {}
-        goapk {}
-        appChina {}
-        mumayi {}
-        eoe {}
-        nduo {}
-        feiliu {}
-        crossmo {}
-        huawei {}
-        QQ {}
-        "3G" {}
-        "360" {}
-        baidu {}
-        sohu {}
-        "163" {}
-        UC {}
-        dangle {}
-        samsung {}
-        mmw {}
-        xiaomi {}
-        lenovo {}
-        nearme {}
     }
 }
 
