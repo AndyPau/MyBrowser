@@ -116,6 +116,7 @@
     <orderEntry type="library" exported="" name="appcompat-v7-22.1.1" level="project" />
     <orderEntry type="library" exported="" name="client-0.7" level="project" />
     <orderEntry type="library" exported="" name="palette-v7-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="AudienceNetwork" level="project" />
     <orderEntry type="library" exported="" name="jsoup-1.8.1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-22.1.1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />

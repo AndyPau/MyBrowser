@@ -78,6 +78,7 @@ dependencies {
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
     compile project(':FillrSDK')
+    compile files('libs/AudienceNetwork.jar')
 }
 
 android.applicationVariants.all { variant ->
