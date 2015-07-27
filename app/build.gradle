@@ -12,11 +12,11 @@ android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
     defaultConfig {
-        applicationId "acr.browser.lightning"
+        applicationId "com.leadthink.browser"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 78
-        versionName "4.0.10a"
+        versionName "1.0.0"
         signingConfig signingConfigs.GeneralSign
     }
     buildTypes {
@@ -26,8 +26,6 @@ android {
             proguardFiles 'proguard-project.txt'
             signingConfig signingConfigs.GeneralSign
             pseudoLocalesEnabled true
-            applicationIdSuffix '.release'
-            versionNameSuffix '.version'
         }
         debug {
             minifyEnabled true
@@ -40,6 +38,32 @@ android {
         abortOnError false
     }
     productFlavors {
+        "default" {}
+        google {}
+        "91" {}
+        hiapk {}
+        gfan {}
+        goapk {}
+        appChina {}
+        mumayi {}
+        eoe {}
+        nduo {}
+        feiliu {}
+        crossmo {}
+        huawei {}
+        QQ {}
+        "3G" {}
+        "360" {}
+        baidu {}
+        sohu {}
+        "163" {}
+        UC {}
+        dangle {}
+        samsung {}
+        mmw {}
+        xiaomi {}
+        lenovo {}
+        nearme {}
     }
 }
 
@@ -54,4 +78,23 @@ dependencies {
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
     compile project(':FillrSDK')
+}
+
+android.applicationVariants.all { variant ->
+    variant.outputs.each { output ->
+        output.processManifest.doLast {
+            //v1.11之前这里用的copy{}，我换成了文件操作，这样可以在v1.11版本正常运行，并保持文件夹整洁
+            //${buildDir}是指build文件夹
+            //${variant.dirName}是flavor/buildtype，例如GooglePlay/release，运行时会自动生成
+            //下面的路径是类似这样：build/intermediates/manifests/GooglePlay/release/AndroidManifest.xml
+            def manifestFile = "${buildDir}/intermediates/manifests/full/${variant.dirName}/AndroidManifest.xml"
+
+            //将字符串REPLACE_KEY替换成flavor的名字
+            def updatedContent = new File(manifestFile).getText('UTF-8').replaceAll("REPLACE_KEY", "${variant.productFlavors[0].name}")
+            new File(manifestFile).write(updatedContent, 'UTF-8')
+
+            //将此次flavor的AndroidManifest.xml文件指定为我们修改过的这个文件
+            variant.outputs[0].processResources.manifestFile = file("${buildDir}/intermediates/manifests/full/${variant.dirName}/AndroidManifest.xml")
+        }
+    }
 }
