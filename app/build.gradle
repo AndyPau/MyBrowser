@@ -56,7 +56,12 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:4.0.0'
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
+    compile('com.segment.analytics.android:analytics:+@aar') {
+        transitive = true
+    }
+
     compile project(':FillrSDK')
+
     compile files('libs/AudienceNetwork.jar')
     compile files('libs/FlurryAnalytics-5.6.0.jar')
     compile files('libs/Tapstream-2.9.0.jar')

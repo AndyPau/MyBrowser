@@ -116,6 +116,25 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/7.5.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.quantcast.android.measurement/QuantcastAndroidSdk-split/1.2.7/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-amplitude/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-appsflyer/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-apptimize/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-bugsnag/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-countly/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-crittercism/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-flurry/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-google-analytics/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-kahuna/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-leanplum/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-localytics/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-mixpanel/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-quantcast/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-taplytics/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-tapstream/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics-integration-uxcam/3.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.segment.analytics.android/analytics/3.1.6/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/net.i2p.android/client/0.7/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jacoco" />
@@ -136,39 +155,65 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="client-0.7" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-appinvite-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-panorama-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="okio-1.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-drive-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-kahuna-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-leanplum-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="FlurryAnalytics-5.6.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-gcm-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-amplitude-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="play-services-appindexing-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-appsflyer-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="play-services-wearable-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-safetynet-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-games-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-plus-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-maps-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="Tapstream-2.9.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-mixpanel-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="play-services-fitness-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-countly-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-quantcast-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="play-services-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-analytics-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="mediarouter-v7-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="palette-v7-22.1.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-wallet-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="okhttp-2.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-identity-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="AudienceNetwork" level="project" />
-    <orderEntry type="library" exported="" name="facebook-android-sdk-4.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-appstate-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-nearby-7.5.0" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-uxcam-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-crittercism-3.1.6" level="project" />
     <orderEntry type="library" exported="" name="play-services-cast-7.5.0" level="project" />
     <orderEntry type="library" exported="" name="bolts-android-1.1.4" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.0" level="project" />
-    <orderEntry type="library" exported="" name="jsoup-1.8.1" level="project" />
-    <orderEntry type="library" exported="" name="play-services-ads-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="bugsnag-android-3.2.5" level="project" />
     <orderEntry type="library" exported="" name="play-services-location-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="client-0.7" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-localytics-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-bugsnag-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-apptimize-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-google-analytics-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="mixpanel-android-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-appinvite-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="android-sdk-1.7.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-panorama-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-core-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="QuantcastAndroidSdk-split-1.2.7" level="project" />
+    <orderEntry type="library" exported="" name="play-services-gcm-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-tapstream-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="play-services-maps-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-taplytics-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="Tapstream-2.9.0" level="project" />
+    <orderEntry type="library" exported="" name="sdk-android-14.12" level="project" />
+    <orderEntry type="library" exported="" name="play-services-analytics-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="analytics-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-wallet-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="facebook-android-sdk-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="play-services-nearby-7.5.0" level="project" />
+    <orderEntry type="library" exported="" name="crittercism-android-agent-5.2.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
+    <orderEntry type="library" exported="" name="jsoup-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="analytics-integration-flurry-3.1.6" level="project" />
+    <orderEntry type="library" exported="" name="play-services-ads-7.5.0" level="project" />
     <orderEntry type="module" module-name="libnetcipher" exported="" />
     <orderEntry type="module" module-name="FillrSDK" exported="" />
   </component>
