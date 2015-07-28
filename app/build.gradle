@@ -53,11 +53,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.google.android.gms:play-services:7.5.0'
     compile 'com.android.support:support-v4:22.2.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
     compile project(':FillrSDK')
     compile files('libs/AudienceNetwork.jar')
     compile files('libs/FlurryAnalytics-5.6.0.jar')
+    compile files('libs/Tapstream-2.9.0.jar')
 }
 
 android.applicationVariants.all { variant ->
