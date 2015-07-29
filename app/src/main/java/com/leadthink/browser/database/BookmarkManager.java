@@ -6,6 +6,11 @@ import android.os.Environment;
 import android.provider.Browser;
 import android.widget.Toast;
 
+import com.leadthink.browser.R;
+import com.leadthink.browser.constant.Constants;
+import com.leadthink.browser.preference.PreferenceManager;
+import com.leadthink.browser.utils.Utils;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -22,11 +27,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.SortedMap;
 import java.util.TreeMap;
-
-import com.leadthink.browser.R;
-import com.leadthink.browser.constant.Constants;
-import com.leadthink.browser.preference.PreferenceManager;
-import com.leadthink.browser.utils.Utils;
 
 public class BookmarkManager {
 

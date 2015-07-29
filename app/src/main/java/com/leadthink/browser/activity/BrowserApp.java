@@ -2,6 +2,7 @@ package com.leadthink.browser.activity;
 
 import android.app.Application;
 import android.content.Context;
+
 import com.flurry.android.FlurryAgent;
 
 public class BrowserApp extends Application {

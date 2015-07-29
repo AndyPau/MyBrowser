@@ -28,22 +28,24 @@ android {
             pseudoLocalesEnabled true
         }
         debug {
-            minifyEnabled true
-            shrinkResources true
-            proguardFiles 'proguard-project.txt'
-            pseudoLocalesEnabled true
+            minifyEnabled false
+            shrinkResources false
+            jniDebuggable true
+            zipAlignEnabled false
         }
     }
     lintOptions {
         abortOnError false
     }
     productFlavors {
-        "default" {}
-        google {}
+        xiaomi{}
     }
 }
 
 dependencies {
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'
+
     compile(project(':libnetcipher')) {
         // Exclude any support-v4 modules because appcompat-v7 will import the latest
         exclude module: 'support-v4'
@@ -59,9 +61,7 @@ dependencies {
     compile('com.segment.analytics.android:analytics:+@aar') {
         transitive = true
     }
-
     compile project(':FillrSDK')
-
     compile files('libs/AudienceNetwork.jar')
     compile files('libs/FlurryAnalytics-5.6.0.jar')
     compile files('libs/Tapstream-2.9.0.jar')

@@ -93,6 +93,21 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.fillr.browsersdk.Fillr;
+import com.leadthink.browser.R;
+import com.leadthink.browser.constant.BookmarkPage;
+import com.leadthink.browser.constant.Constants;
+import com.leadthink.browser.constant.HistoryPage;
+import com.leadthink.browser.controller.BrowserController;
+import com.leadthink.browser.database.BookmarkManager;
+import com.leadthink.browser.database.HistoryDatabase;
+import com.leadthink.browser.database.HistoryItem;
+import com.leadthink.browser.object.ClickHandler;
+import com.leadthink.browser.object.DrawerArrowDrawable;
+import com.leadthink.browser.object.SearchAdapter;
+import com.leadthink.browser.preference.PreferenceManager;
+import com.leadthink.browser.utils.Utils;
+import com.leadthink.browser.view.AnimatedProgressBar;
+import com.leadthink.browser.view.LightningView;
 
 import net.i2p.android.ui.I2PAndroidHelper;
 
@@ -114,21 +129,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-import com.leadthink.browser.R;
-import com.leadthink.browser.constant.BookmarkPage;
-import com.leadthink.browser.constant.Constants;
-import com.leadthink.browser.constant.HistoryPage;
-import com.leadthink.browser.controller.BrowserController;
-import com.leadthink.browser.database.BookmarkManager;
-import com.leadthink.browser.database.HistoryDatabase;
-import com.leadthink.browser.database.HistoryItem;
-import com.leadthink.browser.object.ClickHandler;
-import com.leadthink.browser.object.DrawerArrowDrawable;
-import com.leadthink.browser.object.SearchAdapter;
-import com.leadthink.browser.preference.PreferenceManager;
-import com.leadthink.browser.utils.Utils;
-import com.leadthink.browser.view.AnimatedProgressBar;
-import com.leadthink.browser.view.LightningView;
 import info.guardianproject.netcipher.proxy.OrbotHelper;
 
 public class BrowserActivity extends ThemableActivity implements BrowserController, OnClickListener {

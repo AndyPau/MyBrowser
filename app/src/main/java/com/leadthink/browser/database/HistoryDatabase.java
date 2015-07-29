@@ -9,10 +9,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.leadthink.browser.R;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import com.leadthink.browser.R;
 
 public class HistoryDatabase extends SQLiteOpenHelper {
 

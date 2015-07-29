@@ -10,12 +10,12 @@ import android.net.Uri;
 import android.util.Log;
 import android.webkit.WebView;
 
+import com.leadthink.browser.controller.BrowserController;
+
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.leadthink.browser.controller.BrowserController;
 
 public class IntentUtils {
 

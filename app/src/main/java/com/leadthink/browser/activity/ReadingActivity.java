@@ -19,15 +19,15 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.leadthink.browser.R;
 import com.leadthink.browser.constant.Constants;
 import com.leadthink.browser.preference.PreferenceManager;
 import com.leadthink.browser.reading.HtmlFetcher;
 import com.leadthink.browser.reading.JResult;
 import com.leadthink.browser.utils.Utils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReadingActivity extends AppCompatActivity {
 

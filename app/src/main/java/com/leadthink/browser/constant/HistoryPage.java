@@ -5,16 +5,16 @@ package com.leadthink.browser.constant;
 
 import android.content.Context;
 
+import com.leadthink.browser.R;
+import com.leadthink.browser.activity.BrowserApp;
+import com.leadthink.browser.database.HistoryDatabase;
+import com.leadthink.browser.database.HistoryItem;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
-
-import com.leadthink.browser.R;
-import com.leadthink.browser.activity.BrowserApp;
-import com.leadthink.browser.database.HistoryDatabase;
-import com.leadthink.browser.database.HistoryItem;
 
 public class HistoryPage {
 

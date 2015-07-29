@@ -26,12 +26,13 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import net.i2p.android.ui.I2PAndroidHelper;
-
 import com.leadthink.browser.R;
 import com.leadthink.browser.constant.Constants;
 import com.leadthink.browser.preference.PreferenceManager;
 import com.leadthink.browser.utils.Utils;
+
+import net.i2p.android.ui.I2PAndroidHelper;
+
 import info.guardianproject.netcipher.proxy.OrbotHelper;
 
 public class SettingsActivity extends ThemableSettingsActivity {

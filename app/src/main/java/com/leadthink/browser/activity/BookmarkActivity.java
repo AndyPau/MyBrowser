@@ -13,13 +13,13 @@ import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.io.File;
-import java.util.Arrays;
-import java.util.Comparator;
-
 import com.leadthink.browser.R;
 import com.leadthink.browser.database.BookmarkManager;
 import com.leadthink.browser.preference.PreferenceManager;
+
+import java.io.File;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class BookmarkActivity extends ThemableSettingsActivity implements OnClickListener {
 

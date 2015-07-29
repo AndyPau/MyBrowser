@@ -20,6 +20,11 @@ import android.util.Log;
 import android.webkit.URLUtil;
 import android.widget.Toast;
 
+import com.leadthink.browser.R;
+import com.leadthink.browser.constant.Constants;
+import com.leadthink.browser.database.HistoryItem;
+import com.leadthink.browser.download.DownloadHandler;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -30,11 +35,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import com.leadthink.browser.R;
-import com.leadthink.browser.constant.Constants;
-import com.leadthink.browser.database.HistoryItem;
-import com.leadthink.browser.download.DownloadHandler;
 
 public final class Utils {
 

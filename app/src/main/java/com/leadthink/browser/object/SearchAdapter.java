@@ -18,6 +18,12 @@ import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.leadthink.browser.R;
+import com.leadthink.browser.database.BookmarkManager;
+import com.leadthink.browser.database.HistoryDatabase;
+import com.leadthink.browser.database.HistoryItem;
+import com.leadthink.browser.preference.PreferenceManager;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -35,12 +41,6 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
-import com.leadthink.browser.R;
-import com.leadthink.browser.database.BookmarkManager;
-import com.leadthink.browser.database.HistoryDatabase;
-import com.leadthink.browser.database.HistoryItem;
-import com.leadthink.browser.preference.PreferenceManager;
 
 public class SearchAdapter extends BaseAdapter implements Filterable {
 

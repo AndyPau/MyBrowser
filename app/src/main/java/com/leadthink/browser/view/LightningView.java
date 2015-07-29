@@ -45,13 +45,6 @@ import android.webkit.WebViewClient;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.URISyntaxException;
-
 import com.leadthink.browser.R;
 import com.leadthink.browser.constant.Constants;
 import com.leadthink.browser.constant.StartPage;
@@ -61,6 +54,13 @@ import com.leadthink.browser.preference.PreferenceManager;
 import com.leadthink.browser.utils.AdBlock;
 import com.leadthink.browser.utils.IntentUtils;
 import com.leadthink.browser.utils.Utils;
+
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.URISyntaxException;
 
 public class LightningView {
 

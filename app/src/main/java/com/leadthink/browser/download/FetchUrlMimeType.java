@@ -10,11 +10,11 @@ import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
 import android.widget.Toast;
 
+import com.leadthink.browser.R;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import com.leadthink.browser.R;
 
 /**
  * This class is used to pull down the http headers of a given URL so that we

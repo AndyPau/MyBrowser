@@ -17,6 +17,8 @@ package com.leadthink.browser.reading;
 
 import android.util.Log;
 
+import com.leadthink.browser.constant.Constants;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -33,8 +35,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.Inflater;
 import java.util.zip.InflaterInputStream;
-
-import com.leadthink.browser.constant.Constants;
 
 /**
  * Class to fetch articles. This class is thread safe.
