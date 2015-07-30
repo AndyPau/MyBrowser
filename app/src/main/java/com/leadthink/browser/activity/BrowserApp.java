@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.flurry.android.FlurryAgent;
+import com.squareup.leakcanary.LeakCanary;
 
 public class BrowserApp extends Application {
 
@@ -12,6 +13,10 @@ public class BrowserApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        // Add LeakCanary Support
+        LeakCanary.install(this);
+
         context = getApplicationContext();
 
         // configure Flurry

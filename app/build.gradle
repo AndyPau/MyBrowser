@@ -56,6 +56,10 @@ dependencies {
     compile 'com.google.android.gms:play-services:7.5.0'
     compile 'com.android.support:support-v4:22.2.0'
     compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+
     compile 'org.jsoup:jsoup:1.8.1'
     compile 'net.i2p.android:client:0.7@aar'
     compile('com.segment.analytics.android:analytics:+@aar') {
